@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_ble"
+        android:icon="@drawable/baseline_bluetooth_searching_24"
+        android:title="@string/ble"
+        />
+
+    <item
+        android:id="@+id/navigation_main"
+        android:icon="@drawable/baseline_music_note_24"
+        android:title="@string/effects"
+        />
+
+
+    <item
+        android:id="@+id/navigation_presets"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_presets"
+        app:action="@+id/action_mainActivity_to_presetsFragment"/>
+
+
+</menu>

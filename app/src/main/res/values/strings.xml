@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Guitar Sound Effects</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_presets">Presets</string>
+    <string name="helloworld">Hello World</string>
+    <string name="volume_adjustment">Volume Adjustment</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="icon">Icon</string>
+    <string name="delay_adjustment">Delay Adjustment</string>
+    <string name="chorus_adjustment">Chorus Adjustment</string>
+    <string name="dis_adjustment">Distortion Adjustment</string>
+    <string name="wah_adjustment">Wah-Wah Adjustment</string>
+    <string name="reverb_adjustment">Reverb Adjustment</string>
+    <string name="preset_profile">Preset Profile</string>
+    <string name="sound_profile_name">Sound Profile Name</string>
+    <string name="saved_presets">Saved Presets</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete">Delete</string>
+    <string name="CLIENT_CHARACTERISTIC_CONFIG">00002902–0000–1000–8000–00805f9b34fb"</string>
+    <string name="ble">BLE</string>
+    <string name="effects">Effects</string>
+</resources>

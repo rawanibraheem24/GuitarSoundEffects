@@ -1,0 +1,26 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:background="#FFFFFF"
+    app:startDestination="@id/mainFragment"> <!-- Change start destination to mainFragment -->
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.guitar.MainFragment"
+        android:label="Main"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/presetsFragment"
+        android:name="com.example.guitar.ui.presets.PresetsFragment"
+        android:label="Presets"
+        tools:layout="@layout/fragment_presets" />
+
+    <!-- Define an action to navigate from mainFragment to presetsFragment -->
+    <action
+        android:id="@+id/action_mainFragment_to_presetsFragment"
+        app:destination="@id/presetsFragment" />
+
+
+</navigation>

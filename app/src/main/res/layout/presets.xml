@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customLayout"
+    android:layout_width="350dp"
+    android:layout_height="750dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_green_background"
+    android:gravity="center_vertical">
+
+
+    <!-- Title -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/preset_profile"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        />
+
+    <EditText
+        android:id="@+id/profileNameEditText"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="#61AAFF"
+        android:hint="@string/sound_profile_name"
+        android:inputType="text"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:paddingTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/volume_adjustment"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+/>
+
+    <SeekBar
+        android:id="@+id/volumeSeek"
+        android:layout_height="60dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:progressDrawable="@drawable/seekbar"
+        android:thumb="@drawable/seekbar_thumb"
+        android:max="100"
+        android:progress="50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/delay_adjustment"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+/>
+
+    <SeekBar
+        android:id="@+id/delaySeek"
+        android:layout_height="60dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:progressDrawable="@drawable/seekbar"
+        android:thumb="@drawable/seekbar_thumb"
+        android:max="100"
+        android:progress="50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/chorus_adjustment"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <SeekBar
+        android:id="@+id/chorusSeek"
+        android:layout_height="60dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:progressDrawable="@drawable/seekbar"
+        android:thumb="@drawable/seekbar_thumb"
+        android:max="100"
+        android:progress="50" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/dis_adjustment"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <SeekBar
+        android:id="@+id/disSeek"
+        android:layout_height="60dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:progressDrawable="@drawable/seekbar"
+        android:thumb="@drawable/seekbar_thumb"
+        android:max="100"
+        android:progress="50" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/wah_adjustment"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <SeekBar
+        android:id="@+id/wahSeek"
+        android:layout_height="60dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:progressDrawable="@drawable/seekbar"
+        android:thumb="@drawable/seekbar_thumb"
+        android:max="100"
+        android:progress="50" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/reverb_adjustment"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <SeekBar
+        android:id="@+id/reverbSeek"
+        android:layout_height="60dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:progressDrawable="@drawable/seekbar"
+        android:thumb="@drawable/seekbar_thumb"
+        android:max="100"
+        android:progress="50" />
+
+
+
+
+    <!-- Horizontal layout for the two ImageButtons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/saveButton"
+            android:layout_width="110dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:background="@drawable/save"
+            android:contentDescription="@string/save"
+            android:layout_marginEnd="20dp"
+            />
+
+        <ImageButton
+            android:id="@+id/closeButton"
+            android:layout_width="110dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:background="@drawable/close"
+            android:contentDescription="@string/close"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72.0"
+    android:viewportHeight="72.0">
+
+    <!-- First Longer and Thicker Line with Circle -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M4,10h64v8H4V20z
+                       M18,14a8,8,0,1,1,16,0a8,8,0,1,1,-16,0" />
+
+    <!-- Second Longer and Thicker Line with Circle -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M4,30h64v8H4V40z
+                       M18,34a8,8,0,1,1,16,0a8,8,0,1,1,-16,0" />
+
+    <!-- Third Longer and Thicker Line with Circle -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M4,50h64v8H4V60z
+                       M18,54a8,8,0,1,1,16,0a8,8,0,1,1,-16,0" />
+</vector>
